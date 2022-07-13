@@ -1,0 +1,18 @@
+{
+    "edit_mensaje": {
+        "mensaje": {
+            "remitente": {
+                "nombre": "Nombre del remitente",
+                "mail": "Correo del remitente"
+            },
+            "destinatario": {
+                "nombre": "Nombre del destinatario",
+                "mail": "Correo del destinatario"
+            },
+            "texto": {
+                "asunto": "Este es mi documento con una estructura muy sencilla no contiene atributos ni entidades...",
+                "parrafo": "Este es mi documento con una estructura muy sencilla no contiene atributos ni entidades..."
+            }
+        }
+    }
+}
