@@ -57,8 +57,19 @@ Ejemplo:
 AAL
 ```
 
+## Condición de aprobación
+El programa debe cumplir con toda la funcionalidad dentro de detalles de implementación. Para obtener una nota superior a 7 deben implementarse alguna funcionalidad extra, sea las propuestas o propuestas por el grupo.
+
+## Extras
+
+Posibles extras para el programa:
+
+ - Visualziacion en tiempo real del valor de una acción.
+ - Actualización de rangos en base de datos considerando lo guardado. Ej: Si tengo del 2022/01/01 al 2022/07/01 y pido del 2021/01/01 al 2022/07/01 unicamente debo pedir del 2021/01/01 al 2021/12/31.
+ - Manejo de errores de red y reconexiones.
+ - Visualización de parámetros técnicos.
+
 ## Links utiles
 
  1. [API de valores de finanzas] (https://polygon.io/docs/stocks/getting-started).
  2. [Libreria de base de datos] (https://docs.python.org/3/library/sqlite3.html).
- 
