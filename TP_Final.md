@@ -4,6 +4,16 @@
 
 Se pide implementar un programa que permita leer datos de una API de finanzas, guardarlos en una base de datos y graficarlos.
 
+## Entrega
+
+Fecha limite 30 de septiembre.
+
+El trabajo se entrega en grupos de hasta 5 personas y se piden lo siguientes entregables:
+
+ - Informe de funcionalidad y diseño
+ - Repositorio de github
+
+
 ## Detalles de implementación
 
 ### Menú principal
@@ -73,5 +83,4 @@ Posibles extras para el programa:
 
  1. [API de valores de finanzas] (https://polygon.io/docs/stocks/getting-started).
  2. [Libreria de base de datos] (https://docs.python.org/3/library/sqlite3.html).
-
 
