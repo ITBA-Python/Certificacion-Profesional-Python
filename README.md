@@ -30,3 +30,5 @@ Durante su desarrollo profesional se desempeñó como ayudante en materias como 
 Graduado en Ingeniería Electrónica del ITBA. Posee 3 años de experiencia como desarrollador Full-Stack en la industria del software. Trabaja en una startup de IoT Industrial que monitorea maquinaria para dar un servicio de mantenimiento predictivo. 
 
 Durante sus años de estudio se desempeñó como ayudante en materias como Redes Neuronales y Teoría de Circuitos. También fue voluntario y presidente de la rama estudiantil IEEE ITBA donde fundó el curso de Python introductorio, dictado por esta organización.
+
+-------------------------------------------------------------------------
