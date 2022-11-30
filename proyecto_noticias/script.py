@@ -3,7 +3,7 @@ from xml_parser import parsear_noticias
 from data_analysis.analisis_noticias import analisis_titulos
 
 # Pedimos las noticias
-pedir_noticias()
+pedir_noticias("https://www.ole.com.ar/rss/ultimas-noticias/", 'news_feed.xml')
 
 # Parseamos las noticias
 news = parsear_noticias('news_feed.xml')
