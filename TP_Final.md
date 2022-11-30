@@ -6,7 +6,7 @@ Se pide implementar un programa que permita leer datos de una API de finanzas, g
 
 ## Entrega
 
-Fecha límite 30 de septiembre.
+Fecha límite 21 de diciembre.
 
 El trabajo se entrega en grupos de hasta 5 personas y se piden lo siguientes entregables:
 
