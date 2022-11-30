@@ -80,7 +80,7 @@ SELECT
 FROM
 	tracks
 WHERE
-	mediatypeid IN (2, 3);
+	mediatypeid IN (2, 5);
 
 --LIMIT
 
@@ -135,13 +135,28 @@ FROM
 
 --Seleccionar la cantidad de tracks por cada album, de mayor a menor
 SELECT
-	albumid,
-	COUNT(trackid)
+	tracks.albumid,
+	COUNT(trackid),
+	albums.Title
 FROM
 	tracks
+INNER JOIN albums ON albums.albumid = tracks.albumid
 GROUP BY
-	albumid
-ORDER BY COUNT(trackid) DESC;
+	tracks.albumid
+ORDER BY COUNT(trackid) DESC
+LIMIT 1;
+
+SELECT
+	tracks.albumid,
+	AVG(tracks.milliseconds),
+	albums.Title
+FROM
+	tracks
+INNER JOIN albums ON albums.albumid = tracks.albumid
+GROUP BY
+	tracks.albumid
+ORDER BY AVG(tracks.milliseconds) DESC
+LIMIT 5;
 
 --Obtener el tamaño total de cada album y la duracion
 SELECT
